@@ -19,8 +19,12 @@ public class CekGanjilGenapFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setBackground(new java.awt.Color(153, 153, 153));
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Aplikasi Cek Nomor Ganjil Genap"));
         jPanel1.setLayout(new java.awt.GridBagLayout());
 
+        jLabel1.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Hasil akan ditampilkan disisni");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
@@ -59,6 +63,7 @@ public class CekGanjilGenapFrame extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(28, 98, 0, 108);
         jPanel1.add(JTextField1, gridBagConstraints);
 
+        JButton1.setBackground(new java.awt.Color(0, 255, 0));
         JButton1.setLabel("Hasil");
         JButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -73,6 +78,7 @@ public class CekGanjilGenapFrame extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(53, 98, 80, 0);
         jPanel1.add(JButton1, gridBagConstraints);
 
+        JButton2.setBackground(new java.awt.Color(255, 0, 0));
         JButton2.setLabel("Bersihkan");
         JButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -95,7 +101,7 @@ public class CekGanjilGenapFrame extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(32, 32, 32)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(11, Short.MAX_VALUE))
+                .addContainerGap(9, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
