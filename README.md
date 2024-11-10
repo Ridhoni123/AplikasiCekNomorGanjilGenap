@@ -39,3 +39,4 @@ Dengan aplikasi ini, Anda dapat dengan cepat mengecek karakteristik sebuah angka
 Muhammad Ridhoni Ilham (2210010515)
 
 ## Demo
+![Demo GIF](https://github.com/Ridhoni123/AplikasiCekNomorGanjilGenap/blob/main/img/Recording%202024-11-10%20152007%20(1).gif)
